@@ -11,6 +11,7 @@ Crie um projeto Expo com TypeScript:
 
 ```bash
 npx create-expo-app@latest MeuApp --template blank-typescript
+
 cd MeuApp
 ```
 
@@ -20,11 +21,7 @@ Inicie:
 npx expo start
 ```
 
-Se precisar limpar o cache:
-
-```bash
-npx expo start --clear
-```
+Baixar o apk em https://expo.dev/go
 
 ---
 
@@ -59,3 +56,9 @@ npx expo install react-dom react-native-web @expo/metro-runtime
 ```
 
 ---
+
+Se precisar limpar o cache:
+
+```bash
+npx expo start --clear
+```
